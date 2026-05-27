@@ -25,3 +25,21 @@ else
 	fi;
 fi;
 unset doIt;
+#!/bin/bash
+
+echo "Setting up development environment..."
+
+# Update packages
+sudo apt update
+
+# Install git
+sudo apt install -y git
+
+# Copy bashrc
+cp .bashrc ~/.bashrc
+
+# Reload bashrc
+source ~/.bashrc
+
+echo "Setup complete!"
+

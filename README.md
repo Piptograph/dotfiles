@@ -109,3 +109,22 @@ Suggestions/improvements
 * [Kevin Suttle](http://kevinsuttle.com/) and his [dotfiles repository](https://github.com/kevinSuttle/dotfiles) and [macOS-Defaults project](https://github.com/kevinSuttle/macOS-Defaults), which aims to provide better documentation for [`~/.macos`](https://mths.be/macos)
 * [Haralan Dobrev](https://hkdobrev.com/)
 * Anyone who [contributed a patch](https://github.com/mathiasbynens/dotfiles/contributors) or [made a helpful suggestion](https://github.com/mathiasbynens/dotfiles/issues)
+# My Dotfiles
+
+Personal Linux shell configuration and bootstrap setup.
+
+## Features
+
+- Custom bash aliases
+- Custom shell prompt
+- Automated setup script
+- Git shortcuts
+
+## Installation
+
+```bash
+git clone https://github.com/yourusername/dotfiles.git
+cd dotfiles
+chmod +x bootstrap.sh
+./bootstrap.sh
+
