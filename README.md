@@ -129,3 +129,7 @@ chmod +x bootstrap.sh
 ./bootstrap.sh
 
 ![My Dotfiles Setup](screenshots/screenshot.png)
+
+## Preview
+
+![Terminal](screenshots/screenshot.png)
