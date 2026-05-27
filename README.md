@@ -128,3 +128,4 @@ cd dotfiles
 chmod +x bootstrap.sh
 ./bootstrap.sh
 
+![My Dotfiles Setup](screenshots/screenshot.png)
